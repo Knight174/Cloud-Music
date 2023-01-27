@@ -14,7 +14,9 @@ export default function App() {
     // 获取精品歌单
     const fetchData = () => {
       return axios
-        .get("http://localhost:3000/top/playlist/highquality")
+        .get(
+          "https://netease-cloud-music-api-three-rouge-87.vercel.app/top/playlist/highquality"
+        )
         .then((response) => {
           const { data } = response;
           setMusicList(data.playlists);
