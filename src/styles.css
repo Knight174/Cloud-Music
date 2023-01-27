@@ -1,6 +1,6 @@
-.App {
-  font-family: sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -42,4 +42,8 @@ a {
 .music-box:hover {
   box-shadow: 0 0 20px 3px #fff;
   transform: translate(-10px, -10px);
+}
+
+.container ul {
+  padding-left: 0;
 }
