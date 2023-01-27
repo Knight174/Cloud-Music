@@ -31,7 +31,7 @@ export default function App() {
     <div className="App container text-light">
       <div className="container text-center">
         <h1>Cloud Music</h1>
-        <h2>发现精品歌单</h2>
+        <h2 className="text-3xl font-bold underline">发现精品歌单</h2>
         <input
           type="text"
           value={name}

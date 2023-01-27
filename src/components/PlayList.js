@@ -14,7 +14,7 @@ export default function PlayList({ musicList, state }) {
             </li>
           ))
         : null}
-      {!musicList.length && <p className="text-center">{state}</p>}
+      {!musicList.length && <p className={`text-center ${state}`}>{state}</p>}
     </ul>
   );
 }
