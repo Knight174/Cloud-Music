@@ -13,5 +13,5 @@ export default function TagBox({ tag }) {
 }
 
 TagBox.propTypes = {
-  tag: PropTypes.string.isRequired
+  tag: PropTypes.string.isRequired,
 };

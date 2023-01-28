@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import "./styles.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +16,7 @@ export default function App() {
     const fetchData = () => {
       return axios
         .get(
-          "https://netease-cloud-music-api-three-rouge-87.vercel.app/top/playlist/highquality"
+          "https://netease-cloud-music-hhes5o9z9-knight174.vercel.app/top/playlist/highquality"
         )
         .then((response) => {
           const { data } = response;
